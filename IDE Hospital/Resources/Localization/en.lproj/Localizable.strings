@@ -1,0 +1,138 @@
+/* 
+  Localizable.strings
+  IDE Hospital
+
+  Created by Ibrahim El-geddawy on 10/15/20.
+  
+*/
+"Choose Services" = "Choose Services";
+"language" = "English";
+"IDEA" = "IDEA EG HOSPITAL THE BEST CHOICE";
+"THE BEST CHOICE" = "THE BEST CHOICE";
+"Sort By" = "Sort By";
+"Search Result" = "Search Result";
+"Waiting Time :" = "Waiting Time :";
+"minutes" = "minutes";
+"Examination Fees :" = "Examination Fees :";
+"LE" = "LE";
+"Book Now" = "Book Now";
+"IDEA EG Hospital" = "IDEA EG Hospital";
+"Find a Doctor" = "Find a Doctor";
+"Done" = "Done";
+"Choose Specialists" = "Choose Specialists";
+"Choose City" = "Choose City";
+"Choose Region" = "Choose Region";
+"Choose Companies" = "Choose Companies";
+"Doctor Name" = "Doctor Name";
+"Services Search" = "Services Search";
+"confirm" = "Confirm";
+"yes" = "Yes";
+"no" = "No";
+"cancel" = "Cancel";
+"book" = "Book";
+"doctorProfile" = "Doctor Profile";
+"reviews" = "Reviews";
+"review" = "Review";
+"tapReview" = "Tap Review";
+"viewOnMap" = "  View On Map";
+"minutes" = "Minutes";
+"OK" = "OK";
+"Choose Appointment Error" = "Please Choose Your Booking Appointment Time";
+"Appointment Successfully Booked" = "Appointment Successfully Booked";
+"Sorry" = "Sorry";
+"Sign Up" = "Sign Up";
+"Your Name" = "Your Name";
+"Your Email" = "Your Email";
+"Mobile Number" = "Mobile Number";
+"Choose Password" = "Choose Password";
+"Confirm Password" = "Confirm Password";
+"By clicking sign up, you agree to our" = "By clicking sign up, you agree to our";
+"Terms & Conditions" = "Terms & Conditions";
+"Login" = "Login";
+"Your Email" = "Your Email";
+"Enter password" = "Enter password";
+"Forgot Password?" = "Forgot Password?";
+"Don’t Have account?" = "Don’t Have account?";
+"Reset Password" = "Reset Password";
+"Set New Password" = "Set New Password";
+"Old Password" = "Old Password";
+"Save" = "Save";
+"View Profile" = "View Profile";
+"My Favorites" = "My Favorites";
+//Review
+"submit Review" = "Submit Review";
+"rate your experience" = "Please rate your experience with the doctor";
+"add coment" = "Add Comment";
+"ReviewAcceptance" = "Please Enter Your Review or Rate Youe Experience with Doctor.";
+"review Success" = "Review Added Successfully";
+"Confirm Your Appointment" = "Confirm Your Appointment";
+//Settings
+"Login" = "Login";
+"lang" = "Language";
+"aboutUS" = "About Us";
+"contactUs" = "Contact Us";
+"termsAndConditions" = "Terms & Conditions";
+"Share" = "Share";
+"Logout" = "Logout";
+"favourite" = "Favourite";
+"bookedAppointments" = "Booked Appointments";
+"Edit Profile" = "Edit Profile";
+"settings" = "Settings";
+"logoutMessage" = "Are You Sure You Want to Logout?";
+"Appointment Deleted Successfully" = "Appointment Canceled Successfully";
+"Are You Sure You want to cancel appointment?" = "Are You Sure You want to cancel appointment?";
+"CancelAppointmentNote" = "Note: Minimun Time To Cancel Appointment Is Day Before";
+"my Appointment" = "MY APPOINTMENTS";
+"I Have a Voucher Code" = "I Have a Voucher Code";
+"Enter Code" = "Enter Code";
+"Book for another person!" = "Book for another person!";
+"Enter Name" = "Enter Name";
+"Sign Up & Book" = "Sign Up & Book";
+"Register" = "Register";
+"Login & Book" = "Login & Book";
+//Requests
+"send" = "Send";
+"sendRequest" = "Send Request";
+"yourMessage" = "Your Message";
+"enterDetails" = "Enter Details";
+"contactusDescription" = "If you would like further information about how we can help you and your health it would be great to hear from you.";
+"forMoreInfo" = "For More information call: 19199";
+"nurseDescription" = "If you would like further information about how we can help you andyour health it would be great to hear from you.";
+"homeNurse" = "HOME NURSE";
+"requestSuccess" = "You Request Sent Successfully";
+//validations
+"nameValidation" = "Please Enter Your Name";
+"MobileValidation" = "Please Enter Your Mobile";
+"emailValidation" = "Please Enter Your Email";
+"messageValidation" = "Please Enter Details";
+"enterValidMobile" = "Please Enter Valid Mobile Number";
+"enterValidEmail" = "Please Enter Valid Email";
+"ratevalidation" = "Please Add Rating";
+"passwordValidation" = "Please Enter Your Password";
+"passwordNewValidation" = "Please Enter Your New Password";
+"passwordConfirmValidation" = "Please Enter Confirm Password";
+"passwordValidationNotMatch" = "Password Validation Not Match";
+"enterVaildPassword" = "Password: Should include 1 Capital letter, 1 Number, and min 12 character, Don’t allow special character.";
+// voucher
+"do you have voucher code" = "do you have voucher code";
+"continue" = "Continue";
+// place holder
+"No Appointments Found" = "No Appointments Found";
+//Dr Profile
+"No Appointments Found" = "No Appointments Found";
+"Sorry You Should Login First" = "Sorry You Should Login First";
+"Sorry You have to enter voucher" =  "Sorry You have to enter voucher.";
+"Sorry You have to enter patient name" = "Sorry You have to enter patient name.";
+"Plaese Login First" = "Please Login First";
+"Your Data Has Be Updated" = "Your Data Has Be Updated";
+"You Have Be Login Successfully" = "You Have Be Login Successfully";
+"You Have Be Sign Up Successfully" = "You Have Be Sign Up Successfully";
+"You have to enter voucher" = "You have to enter voucher";
+"You Will Revice An Email With Steps to How to Reset Your Password" = "You Will Revice An Email With Steps to How to Reset Your Password";
+"Are you Booking for another person?" = "Are you Booking for another person?";
+//Cancel Appointment
+"cancelAppointmentError" = "You Can't Cancel Appointment During 24 hours from your Appointment time.";
+//Tab Bar
+"Search" = "Search";
+"Favourites" = "Favourites";
+"Schedule" = "Schedule";

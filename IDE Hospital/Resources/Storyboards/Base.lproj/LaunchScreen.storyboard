@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PT Sans Regular.ttf">
+            <string>PTSans-Regular</string>
+        </array>
+        <array key="PT_Sans_Bold.ttf">
+            <string>PTSans-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="jJ1-Hg-oLT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ySL-tK-ggL">
+                                <rect key="frame" x="102" y="199.5" width="171" height="188"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDEA EG Hospital" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Y9r-kz-xf0">
+                                <rect key="frame" x="28" y="423" width="319" height="36"/>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDEA EG HOSPITAL THE BEST CHOICE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vYI-Hb-1uF">
+                                <rect key="frame" x="14" y="469" width="347" height="18"/>
+                                <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y9r-kz-xf0" secondAttribute="trailing" constant="28" id="2WO-GJ-8Up"/>
+                            <constraint firstItem="ySL-tK-ggL" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="188/667" id="5Fs-EP-2wQ"/>
+                            <constraint firstItem="vYI-Hb-1uF" firstAttribute="top" secondItem="Y9r-kz-xf0" secondAttribute="bottom" constant="10" id="Cj8-bO-Pp8"/>
+                            <constraint firstAttribute="bottom" secondItem="jJ1-Hg-oLT" secondAttribute="bottom" id="Hl2-Rw-BNP"/>
+                            <constraint firstItem="jJ1-Hg-oLT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K3a-z4-0sL"/>
+                            <constraint firstItem="Y9r-kz-xf0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OeG-QH-mgV"/>
+                            <constraint firstItem="ySL-tK-ggL" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.88" id="X3U-Ca-P6H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jJ1-Hg-oLT" secondAttribute="trailing" id="amL-rl-Q0b"/>
+                            <constraint firstItem="Y9r-kz-xf0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="c8e-sK-qN3"/>
+                            <constraint firstItem="vYI-Hb-1uF" firstAttribute="centerX" secondItem="Y9r-kz-xf0" secondAttribute="centerX" id="cqr-AM-TF1"/>
+                            <constraint firstItem="Y9r-kz-xf0" firstAttribute="top" secondItem="ySL-tK-ggL" secondAttribute="bottom" constant="35.600000000000001" id="g8Q-sL-La8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vYI-Hb-1uF" secondAttribute="trailing" constant="14" id="hQS-XT-o6g"/>
+                            <constraint firstItem="jJ1-Hg-oLT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mdw-Lp-Dhs"/>
+                            <constraint firstItem="ySL-tK-ggL" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="171/375" id="pbN-RO-1GJ"/>
+                            <constraint firstItem="vYI-Hb-1uF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="vss-0H-6gz"/>
+                            <constraint firstItem="ySL-tK-ggL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xW9-ZM-Xc0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="171" height="188.5"/>
+        <image name="backgroundImage" width="375" height="667"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

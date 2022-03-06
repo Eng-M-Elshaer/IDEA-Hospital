@@ -1,0 +1,17 @@
+/* 
+  Colors.txt
+  IDE Hospital
+
+  Created by Ibrahim El-geddawy on 10/15/20.
+  
+*/
+
+navigationColor : #cccccc
+navButtonColor : #848585
+darkRoyalBlue : #001867
+blackDecription : #0a0a0a
+unselectButtonColor : #b7b7b7
+niceBlue : #0f86b9
+whiteTwo : #ededed
+steelGrey : #848585
+richPurple : #6f0066
